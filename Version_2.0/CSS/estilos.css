@@ -1,0 +1,193 @@
+/*===================
+    Estilo Global
+=====================*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/*===================
+    Cabeçalho
+=====================*/
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.destaque {
+  padding: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.ofertas {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.produto {
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+
+/*====================
+    Catalogos
+======================*/
+
+.filtros {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.filtros form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.filtros label {
+  font-weight: bold;
+}
+
+.produtos-catalogo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 30px;
+}
+
+/*====================
+    Carrinho
+======================*/
+
+.carrinho {
+  padding: 30px;
+  text-align: center;
+}
+
+.carrinho table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.carrinho th, .carrinho td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.total-final {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+/*====================
+ Cadastro/Criar Conta e Login
+======================*/
+
+.formulario {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario label {
+  font-weight: bold;
+}
+
+.formulario input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*====================
+ Finalizar Compra
+======================*/
+
+.finalizacao {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.finalizacao h2,
+.finalizacao h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.finalizacao table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.finalizacao th,
+.finalizacao td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
