@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="More e Usuária">
+  <meta name="description" content="Catálogo de produtos da loja TechPower">
+  <title>Catálogo | TechPixel</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Catálogo de Produtos</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="catalogo.html">Produtos</a></li>
+        <li><a href="ofertas.html">Ofertas</a></li>
+        <li><a href="cadastro.html">Criar Conta</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="carrinho.html">Carrinho 🛒</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Filtros (simples, visuais) -->
+  <section class="filtros">
+    <h2>Filtrar por:</h2>
+    <form>
+      <label>
+        Categoria:
+        <select name="categoria">
+          <option value="todos">Todos</option>
+          <option value="tvs">TVs</option>
+          <option value="notebooks">Notebooks</option>
+          <option value="celulares">Celulares</option>
+        </select>
+      </label>
+
+      <label>
+        Preço até:
+        <input type="number" name="preco" placeholder="Ex: 3000">
+      </label>
+
+      <button type="submit">Aplicar Filtros</button>
+    </form>
+  </section>
+
+  <!-- Lista de Produtos -->
+  <section class="produtos-catalogo">
+    <article class="produto">
+      <img src="img/tv50.1.webp" alt="TV 50 polegadas">
+      <h3>Smart TV 50"</h3>
+      <p><strong>R$ 2.899,00</strong></p>
+      <button>Adicionar ao carrinho</button>
+    </article>
+
+    <article class="produto">
+      <img src="img/notebook1.jpg" alt="Notebook Gamer">
+      <h3>Notebook Gamer X</h3>
+      <p><strong>R$ 4.799,00</strong></p>
+      <button>Adicionar ao carrinho</button>
+    </article>
+
+    <article class="produto">
+      <img src="img\celular s24.jpg" alt="Celular Ultra">
+      <h3>Smartphone Ultra 5G</h3>
+      <p><strong>R$ 1.999,00</strong></p>
+      <button>Adicionar ao carrinho</button>
+    </article>
+
+    <!-- Adicione mais produtos aqui -->
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 TechPixel Eletrônicos</p>
+  </footer>
+
+</body>
+</html>
